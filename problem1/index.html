@@ -4,45 +4,48 @@
         <title></title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
-        <meta name="description" content="">
+        <meta name="description" content="CSS Flexbox Webpage Design">
         <meta name="author" content="Taylor Miseray">
         <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
-
-
-        <!-- Horizontal Top Page Nav -->
-        <nav class="menu">
-            <ul class="menu-items">
-                <li><a href="">Item 1</a></li>
-                <li><a href="">Item 2</a></li>
-                <li><a href="">Item 3</a></li>
-            </ul>
-        </nav>
-
-
-        <!-- Background Image, Header Text: bold, contrast color, centered -->
-        <header>
-            <h1>Title for web page</h1>
-            <p>Header details go here</p>
-        </header>
-
         <div class="container">
+
+            <!-- Horizontal Top Page Nav -->
+            <nav class="menu">
+                <ul class="menu-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+
+            <!-- Background Image, Header Text: bold, contrast color, centered -->
+            <header>
+                <h1>Flexbox Assignment</h1>
+                <p>Full webpage built using flexbox properties</p>
+            </header>
+
             <!-- At least 2 children divs w/content, vertically stacked -->
             <div class="main-content">
                 <section>
-                    <p>Main content 1</p>
+                    <p>Here we have the first child of the main content. <br> The top main menu navigation is set at sticky position and responsive to webpage sizes.</p>
                 </section>
 
                 <section>
-                    <p>Main content 2</p>
+                    <p>Here we have the second child of the main content. <br> The footer below is set to always be at the bottom of the page and is also responsive to webpage sizes.</p>
                 </section>
             </div>
+
+            <!-- Horizontal Footer: At least 3 sections (contact us, events, blog) -->
+            <footer>
+                <ul class="footer-items">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </footer>
         </div>
-        <!-- Horizontal Footer: At least 3 sections (contact us, events, blog) -->
-        <footer>
-            <p>Footer</p>
-        </footer>
     </body>
 </html>
