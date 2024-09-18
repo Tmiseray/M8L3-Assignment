@@ -1,0 +1,150 @@
+/* Amita - Title */
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap');
+
+/* Uncial Antiqua - Paragraphs */
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+/* Genos - Paragraphs? */
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Alemendra SC - Menu */
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
+
+/* Asset - Menu? */
+@import url('https://fonts.googleapis.com/css2?family=Asset&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(255, 184, 32, 0.879);
+}
+
+header {
+    background: url(super-moon.jpg) no-repeat;
+    background-size: 100% auto;
+    top: 0;
+    left: 0;
+    height: 700px;
+}
+
+header h1 {
+    font-family: 'Amita';
+    font-size: 40px;
+    color: rgb(255, 244, 183);
+    margin-left: 20px;
+    position: relative;
+    float: inline-start;
+    left: 35px;
+    top: 50px;
+
+}
+
+header p {
+    font-family: 'Unicial Antiqua';
+    font-size: 30px;
+    color: gold;
+    position: relative;
+    float: right;
+    top: 100px;
+    padding-right: 20px;
+}
+
+section {
+    font-family: 'Genos';
+}
+
+footer {
+    font-family: 'Asset';
+}
+
+.menu {
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+    box-sizing: border-box;
+    background-color: black;
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.788);
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li,
+.menu a {
+    font-family: 'Alemendra SC';
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    padding: 16px 18px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: whitesmoke;
+    text-decoration: none;
+    width: auto;
+}
+
+.menu a:visited {
+    color: rgba(174, 255, 255, 0.75);
+}
+
+.menu a:hover, .main-menu a:target {
+    background-color: whitesmoke !important;
+    color: black !important;
+}
+
+.menu a.active {
+    background-color: lightslategray !important;
+    color: white !important;
+}
+
+.menu-items li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.menu-items a {
+    text-decoration: none;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Responsive Design */
+
+@media (max-width:600px) {
+    .container {
+        display: none;
+    }
+    /* Navigation format */
+    /* Footer column format */
+}
